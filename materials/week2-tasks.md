@@ -1,23 +1,29 @@
 # Week 2 Task Brief — React Lagoon
 
-## Daily Objectives
-- **Day 6–7**: Build the “Bikini Bottom Residents” gallery. Model resident data as JSON, render cards with props, and practice prop-types or TypeScript interfaces for component contracts.
-- **Day 8–9**: Deliver the “Krusty Menu Board”. Fetch menu data from TheMealDB API, manage menu state (favorites, counts), lift shared state when needed, and demonstrate list rendering with stable keys.
-- **Day 10**: Implement the “Chum Bucket Feedback App”. Support adding, editing, and deleting feedback, reuse components (forms, cards), and confirm state updates via React DevTools.
+## Core Assignment (4-day build)
+Ship the “Krusty Menu Board” React app:
+- Fetch menu categories and meals from TheMealDB API on load.
+- Provide filters by category and ingredient, plus a search input with debounced queries.
+- Allow marking meals as “Crew Favorites” with state lifted to an app context or parent store.
+- Track totals (e.g., patties available, favorites count) and surface them in a dashboard header.
+
+## Supporting Focus (1-day drill)
+- Create a reusable `ResidentCard` component (SpongeBob, Patrick, Squidward) to practice props, typing (PropTypes or TypeScript), and composition. Keep this under `week-2/components-lab/` and reuse the same component in the core app if helpful.
 
 ## Stretch Ideas
-- Introduce basic routing with React Router to separate gallery, menu, and feedback views.
-- Add testing for one component using React Testing Library to validate props/state handling.
+- Add client-side routing (React Router) to split views between Menu, Favorites, and Crew.
+- Write a React Testing Library spec covering the filter logic or favorite toggles.
 
 ## Deliverables
-- A React project inside `week-2/` demonstrating all three feature branches merged into `main`.
-- Short Loom (≤3 min) covering component structure, state flow, and key takeaways.
-- Notes on questions that surfaced around hooks, props, and data flow.
+- Repo structure: `week-2/app/` for the Menu Board, `week-2/components-lab/` for the drill.
+- Project README highlighting data fetching patterns, state management decisions, and how favorites persist.
+- Optional Loom (≤2 min) walking through the filtering and favorites experience.
 
 ## Reference Materials
 - freeCodeCamp React Handbook (core reading for the week).
 - React docs: `https://react.dev/learn` sections on components, props, state, and lists.
 - TheMealDB API docs: `https://www.themealdb.com/api.php`.
+- Internal assets: [`menu-board-wireframe.md`](../assets/week2/menu-board-wireframe.md), [`resident-card-contract.md`](../assets/week2/resident-card-contract.md).
 
 ---
 

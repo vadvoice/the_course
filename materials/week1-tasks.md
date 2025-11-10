@@ -1,22 +1,28 @@
 # Week 1 Task Brief — Welcome to Bikini Bottom
 
-## Daily Objectives
-- **Day 1–2**: Recreate the “Make SpongeBob Dance” interaction using vanilla JavaScript, focusing on DOM selection, event listeners, and basic animations (CSS classes or inline styles).
-- **Day 3–4**: Build the “Krusty Ingredient Explorer” widget. Fetch ingredient data from TheMealDB API, handle loading/error states, and render meal or ingredient details inside a styled card.
-- **Day 5**: Ship the “Krusty Krab Orders” app. Support adding, removing, and filtering orders, persist data in `localStorage`, and keep the UI accessible (keyboard + focus states).
+## Core Assignment (3-day sprint)
+Build the “Krusty Pantry Explorer” web page:
+- Pull ingredient data from TheMealDB API by name.
+- Render search results with meal thumbnails, ingredient lists, and prep notes.
+- Allow users to favorite meals (persisted via `localStorage`) and filter the view between “All” and “Favorites”.
+- Ensure the UI is keyboard-accessible and provides loading + error messaging.
+
+## Lab Drill (1-day focus)
+- Add the “Make SpongeBob Dance” interaction to reinforce DOM events and animation triggers. Treat this as a separate `lab/` folder so instructors can review fundamentals quickly.
 
 ## Stretch Ideas
-- Add form validation with friendly error messages for the order form.
-- Animate list changes (enter/exit) with CSS transitions to reinforce DOM manipulation.
+- Add inline validation + helper text for invalid searches.
+- Animate favorites toggling with CSS transitions to reinforce DOM manipulation.
 
 ## Deliverables
-- Code for all three projects in a single repo under a `week-1/` folder.
-- A short video or GIF demo (≤2 min) showcasing each interaction.
-- A retro note capturing what felt smooth vs. spiky for JavaScript fundamentals.
+- Repo structure: `week-1/core/` for the Pantry Explorer, `week-1/lab/` for the animation drill.
+- README snippet describing API endpoints used, persistence approach, and accessibility checks.
+- Optional: 60-second walkthrough video or GIF demonstrating search + favorite workflow.
 
 ## Reference Materials
 - MDN guides for DOM APIs, Fetch, Promises, and async/await.
 - TheMealDB API docs: `https://www.themealdb.com/api.php`.
+- Internal assets: [`mealdb-endpoints.md`](../assets/week1/mealdb-endpoints.md), [`favorites-schema.json`](../assets/week1/favorites-schema.json).
 - Optional: Scrimba or egghead.io clips on modern JavaScript patterns.
 
 ---

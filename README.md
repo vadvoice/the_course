@@ -18,6 +18,11 @@ By the end of this training, every SpongeBob-in-training will achieve the follow
 
 **The continuous Learning Loop:** Learn → Code → Build → Show → Reflect.
 
+## 📦 Assets & Templates
+- Week 1: [`mealdb-endpoints.md`](assets/week1/mealdb-endpoints.md), [`favorites-schema.json`](assets/week1/favorites-schema.json)
+- Week 2: [`menu-board-wireframe.md`](assets/week2/menu-board-wireframe.md), [`resident-card-contract.md`](assets/week2/resident-card-contract.md)
+- Week 3: [`deploy-checklist-template.md`](assets/week3/deploy-checklist-template.md), [`dashboard-data-flow.md`](assets/week3/dashboard-data-flow.md)
+
 ---
 
 ## 🌊 Program Stages (The Three Weeks)
