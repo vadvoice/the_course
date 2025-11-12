@@ -1,9 +1,18 @@
-# Week 1 Assets Index
+# Stage 1 Assets
 
-- [`mealdb-endpoints.md`](mealdb-endpoints.md) — API endpoint cheat sheet for the “Krusty Pantry Explorer”.
-- [`favorites-schema.json`](favorites-schema.json) — Suggested `localStorage` structure for meal favorites.
+This folder contains reference materials and guides for Stage 1: React Basics & Environment Setup.
+
+## Available Resources
+
+- [`react-setup-guide.md`](react-setup-guide.md) — Complete step-by-step guide for setting up your development environment (NVM, Node.js, VS Code, GitHub, Vite)
+- [`component-examples.md`](component-examples.md) — React component examples with TypeScript for building the "Interactive Welcome Board" project
+
+## Quick Links
+
+- [Stage 1 Overview](../topics.md)
+- [Stage 1 Task Brief](../tasks.md)
+- [Git Flow Workflow Guide](../../../guides/gitflow-workflow.md)
 
 ---
 
-**Related Task:** [Week 1 Task Brief — Welcome to Bikini Bottom](../../tasks.md)
-
+**Related Task:** [Stage 1 Task Brief](../tasks.md)

@@ -4,9 +4,9 @@
   <img src="https://cdn.gamma.app/4my05amn4b2pizt/generated-images/kspclTOQYOkQjnuYEvrOH.png" alt="SpongeBob React Bootcamp course diagram" style="max-width: 600px; width: 100%; border-radius: 12px; box-shadow: 0 4px 14px #0001;" />
 </p>
 
-**Theme:** “Learn JavaScript and React under the sea — guided by SpongeBob, Patrick, and Sandy!”.
+**Theme:** "Learn React under the sea — guided by SpongeBob, Patrick, and Sandy!".
 
-This intensive, fast-paced training voyage takes trainees through the JavaScript and React seas. The program runs for approximately **3 weeks** (15 sessions, 2–3 hours each), following an intensive and playful style (SpongeBob energy + developer focus).
+This intensive, fast-paced training voyage is **React-focused from day one**. The program runs for approximately **3 weeks** (15 sessions, 2–3 hours each), following an intensive and playful style (SpongeBob energy + developer focus). All work is tracked in a single GitHub repository following professional Git workflows.
 
 
 ## 🏁 Mission & Goals
@@ -20,28 +20,42 @@ By the end of this training, every SpongeBob-in-training will achieve the follow
 
 ## 📦 Assets & Templates
 - **Git Workflow**: [`gitflow-workflow.md`](guides/gitflow-workflow.md) - Complete guide for feature branches, PRs, and code review process
-- Week 1: [`mealdb-endpoints.md`](stages/1/assets/mealdb-endpoints.md), [`favorites-schema.json`](stages/1/assets/favorites-schema.json)
-- Week 2: [`menu-board-wireframe.md`](stages/2/assets/menu-board-wireframe.md), [`resident-card-contract.md`](stages/2/assets/resident-card-contract.md)
-- Week 3: [`deploy-checklist-template.md`](stages/3/assets/deploy-checklist-template.md), [`dashboard-data-flow.md`](stages/3/assets/dashboard-data-flow.md)
+- **Stage 0** (Optional): [`mealdb-endpoints.md`](stages/0/assets/mealdb-endpoints.md), [`favorites-schema.json`](stages/0/assets/favorites-schema.json) - Vanilla JS resources
+- **Stage 1**: [`react-setup-guide.md`](stages/1/assets/react-setup-guide.md), [`component-examples.md`](stages/1/assets/component-examples.md) - React setup and component examples
+- **Stage 2**: [`menu-board-wireframe.md`](stages/2/assets/menu-board-wireframe.md), [`resident-card-contract.md`](stages/2/assets/resident-card-contract.md)
+- **Stage 3**: [`deploy-checklist-template.md`](stages/3/assets/deploy-checklist-template.md), [`dashboard-data-flow.md`](stages/3/assets/dashboard-data-flow.md)
 
 ---
 
-## 🌊 Program Stages (The Three Weeks)
+## 🌊 Program Stages
 
-The curriculum is divided into three comprehensive stages, moving from foundational JavaScript to advanced, deployable React applications.
+The curriculum is divided into **three main stages** (plus an optional pre-stage), moving from React fundamentals to advanced, deployable applications. All work is tracked in a single GitHub repository.
 
-### 🪸 WEEK 1 — "Welcome to Bikini Bottom: JavaScript Bootcamp"
+### 🪸 STAGE 0 — "Vanilla JavaScript Foundation" (Optional Pre-Stage)
 
-[Stage Overview](stages/1/topics.md) · [Task Brief](stages/1/tasks.md)
+[Stage Overview](stages/0/topics.md) · [Task Brief](stages/0/tasks.md)
 
-**Goal:** To build a strong base in modern JavaScript and become comfortable working with the Document Object Model (DOM).
+**Goal:** Build a strong base in modern JavaScript for complete beginners before diving into React.
 
 | Focus Area | Key Concepts | Milestone |
 | :--- | :--- | :--- |
-| **Vanilla JS Mastery** | HTML & CSS refresher (Sandy’s bubble dome aesthetics 🧠), JS basics, and **ES6+ features** (arrow functions, destructuring, promises). | Functional **“Krusty Krab Orders” app built with vanilla JS**. |
-| **Interactivity & Data** | **DOM manipulation & event handling**. Using the **Fetch API + async/await** with TheMealDB to build the “Krusty Ingredient Explorer.” | |
+| **Vanilla JS Mastery** | HTML & CSS refresher, JS basics, and **ES6+ features** (arrow functions, destructuring, promises). | Functional **"Krusty Krab Orders" app built with vanilla JS**. |
+| **Interactivity & Data** | **DOM manipulation & event handling**. Using the **Fetch API + async/await** with TheMealDB. | |
 
-### 🌴 WEEK 2 — "React Lagoon: Components, Hooks, and Friendship"
+> **Note:** This stage is optional. If you already have JavaScript experience, you can skip directly to Stage 1.
+
+### 🌊 STAGE 1 — "Welcome to Bikini Bottom: React Basics & Environment Setup"
+
+[Stage Overview](stages/1/topics.md) · [Task Brief](stages/1/tasks.md)
+
+**Goal:** Set up a professional development environment and learn React fundamentals from day one.
+
+| Focus Area | Key Concepts | Milestone |
+| :--- | :--- | :--- |
+| **Environment Setup** | **NVM, Node.js, VS Code configuration**, **GitHub repository creation**, **Vite + React + TypeScript** project initialization, **Git Flow workflow** setup. | Fully configured development environment with working React + TypeScript project. |
+| **React Fundamentals** | **JSX syntax**, **React components** (function components), **TypeScript basics** (interfaces, types), **component composition**, and **project structure**. | **"Interactive Welcome Board"** built with React components, TypeScript types, and proper Git workflow. |
+
+### 🌴 STAGE 2 — "React Lagoon: Components, State, and Data"
 
 [Stage Overview](stages/2/topics.md) · [Task Brief](stages/2/tasks.md)
 
@@ -52,7 +66,7 @@ The curriculum is divided into three comprehensive stages, moving from foundatio
 | **React Fundamentals** | **React basics** (what, why, and JSX) with **TypeScript**, **Components, props, and state** with type definitions. | Working **“Krusty Menu Board” React + TypeScript app using state + props + lists**. |
 | **Application Building** | Event handling in React with TypeScript, rendering **Lists, keys, and data** sourced from TheMealDB with typed responses, and establishing a simple project structure & styling. | |
 
-### ⚓ WEEK 3 — "Sail to the Surface: Hooks, Routing, and Deployment"
+### ⚓ STAGE 3 — "Sail to the Surface: Hooks, Routing, and Deployment"
 
 [Stage Overview](stages/3/topics.md) · [Task Brief](stages/3/tasks.md)
 

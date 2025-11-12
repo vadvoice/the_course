@@ -1,32 +1,120 @@
-# Week 1 Task Brief — Welcome to Bikini Bottom
+# Stage 1 Task Brief — React Basics & Environment Setup
 
-## Core Assignment (3-day sprint)
-Build the “Krusty Pantry Explorer” web page:
-- Pull ingredient data from TheMealDB API by name.
-- Render search results with meal thumbnails, ingredient lists, and prep notes.
-- Allow users to favorite meals (persisted via `localStorage`) and filter the view between “All” and “Favorites”.
-- Ensure the UI is keyboard-accessible and provides loading + error messaging.
+## Day 1: Environment Setup & Repository Creation
 
-## Lab Drill (1-day focus)
-- Add the “Make SpongeBob Dance” interaction to reinforce DOM events and animation triggers. Treat this as a separate `lab/` folder so instructors can review fundamentals quickly.
+### Setup Tasks
+1. **Install NVM (Node Version Manager)**
+   - Follow installation guide for your OS
+   - Verify installation: `nvm --version`
+
+2. **Install Node.js (Latest LTS)**
+   - Run: `nvm install --lts && nvm use --lts`
+   - Verify: `node --version` and `npm --version`
+
+3. **Configure VS Code**
+   - Install recommended extensions:
+     - Biome (linting + formatting)
+     - TypeScript and JavaScript Language Features (built-in)
+     - Auto Rename Tag
+     - ESLint (if not using Biome)
+   - Configure settings for TypeScript and React
+
+4. **Create GitHub Repository**
+   - Create a new repository: `spongebob-react-bootcamp` (or similar)
+   - Initialize with README (optional)
+   - Clone locally: `git clone <your-repo-url>`
+
+5. **Initialize React + TypeScript Project**
+   - Navigate to repo: `cd spongebob-react-bootcamp`
+   - Create Vite project: `npm create vite@latest . -- --template react-ts`
+   - Install dependencies: `npm install`
+   - Test dev server: `npm run dev`
+
+6. **Set Up Git Flow**
+   - Create `develop` branch: `git checkout -b develop`
+   - Push `develop` to remote: `git push -u origin develop`
+   - Follow [Git Flow guide](../../guides/gitflow-workflow.md) for branch structure
+
+7. **Configure Commitlint**
+   - Install: `npm install --save-dev @commitlint/cli @commitlint/config-conventional`
+   - Create `commitlint.config.js` (see guide)
+   - Test with a commit message
+
+### Deliverables
+- ✅ Working development environment
+- ✅ GitHub repository with `main` and `develop` branches
+- ✅ React + TypeScript project running locally
+- ✅ First commit following Conventional Commits format
+
+## Days 2-5: React Fundamentals Practice
+
+### Core Assignment: "Interactive Welcome Board"
+Build a React application that displays information about Bikini Bottom residents with interactive elements.
+
+**Requirements:**
+- Create reusable `ResidentCard` component with TypeScript props
+- Display at least 3 characters (SpongeBob, Patrick, Squidward)
+- Use proper TypeScript interfaces for all props
+- Implement basic interactivity (click to show/hide details, toggle favorite)
+- Organize components in a clear folder structure
+- Apply basic styling (CSS Modules or Tailwind)
+
+### Component Structure
+```
+src/
+├── components/
+│   ├── ResidentCard.tsx
+│   ├── WelcomeBoard.tsx
+│   └── types.ts
+├── App.tsx
+└── main.tsx
+```
+
+### TypeScript Requirements
+- Define interfaces for all component props
+- Type all function parameters and return values
+- Use proper typing for event handlers
+
+### Git Workflow
+- Create feature branch: `feature/stage1-welcome-board`
+- Make commits following Conventional Commits
+- Create PR to `develop` branch
+- Get code review and merge
+
+## Lab Drills (Practice Components)
+
+### Day 2-3: Component Practice
+- Create simple greeting components
+- Practice JSX syntax and expressions
+- Experiment with props and TypeScript
+
+### Day 4: Composition Practice
+- Build nested component structures
+- Practice component composition patterns
+- Work with static data arrays
 
 ## Stretch Ideas
-- Add inline validation + helper text for invalid searches.
-- Animate favorites toggling with CSS transitions to reinforce DOM manipulation.
+- Add CSS animations for component interactions
+- Create a theme provider component
+- Implement a simple prop validation utility
+- Add Storybook for component documentation
 
 ## Deliverables
-- Repo structure: `week-1/core/` for the Pantry Explorer, `week-1/lab/` for the animation drill.
-- **Git Flow workflow**: All code submitted via feature branches with pull/merge requests to `develop` branch (see [Git Flow guide](../../guides/gitflow-workflow.md)).
-- README snippet describing API endpoints used, persistence approach, and accessibility checks.
-- Optional: 60-second walkthrough video or GIF demonstrating search + favorite workflow.
+- Repo structure: All code in the main repository, organized by feature branches
+- **Git Flow workflow**: All code submitted via feature branches with pull/merge requests to `develop` branch (see [Git Flow guide](../../guides/gitflow-workflow.md))
+- README.md with:
+  - Project setup instructions
+  - Development workflow
+  - Component documentation
+- At least 2 merged PRs demonstrating Git Flow workflow
 
 ## Reference Materials
-- MDN guides for DOM APIs, Fetch, Promises, and async/await.
-- TheMealDB API docs: `https://www.themealdb.com/api.php`.
-- Internal assets: [`gitflow-workflow.md`](../../guides/gitflow-workflow.md), [`mealdb-endpoints.md`](assets/mealdb-endpoints.md), [`favorites-schema.json`](assets/favorites-schema.json).
-- Optional: Scrimba or egghead.io clips on modern JavaScript patterns.
+- React docs: `https://react.dev/learn` (Start here: "Describing the UI")
+- TypeScript Handbook: `https://www.typescriptlang.org/docs/handbook/intro.html` (focus on types, interfaces)
+- React TypeScript Cheatsheet: `https://react-typescript-cheatsheet.netlify.app/`
+- Vite documentation: `https://vitejs.dev/guide/`
+- Internal assets: [`gitflow-workflow.md`](../../guides/gitflow-workflow.md), [`react-setup-guide.md`](assets/react-setup-guide.md), [`component-examples.md`](assets/component-examples.md)
 
 ---
 
-**Navigation:** [Week 1 Overview](topics.md) · [Program Overview](../../README.md)
-
+**Navigation:** [Stage 1 Overview](topics.md) · [Stage 2: React Components & State](../2/topics.md) · [Program Overview](../../README.md)
