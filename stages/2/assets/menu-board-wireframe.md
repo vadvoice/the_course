@@ -1,4 +1,4 @@
-# Week 2 — “Krusty Menu Board” Wireframe Outline
+# Stage 2 — "Krusty Menu Board" Wireframe Outline
 
 ```
 ┌────────────────────────────────────────────┐
@@ -38,5 +38,5 @@ Keep the layout mobile-first; collapse filters into accordions below 768px.
 
 ---
 
-**Related Task:** [Week 2 Task Brief — React Lagoon](../../tasks.md)
+**Related Task:** [Stage 2 Task Brief](../../tasks.md)
 

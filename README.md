@@ -55,26 +55,27 @@ The curriculum is divided into **three main stages** (plus an optional pre-stage
 | **Environment Setup** | **NVM, Node.js, VS Code configuration**, **GitHub repository creation**, **Vite + React + TypeScript** project initialization, **Git Flow workflow** setup. | Fully configured development environment with working React + TypeScript project. |
 | **React Fundamentals** | **JSX syntax**, **React components** (function components), **TypeScript basics** (interfaces, types), **component composition**, and **project structure**. | **"Interactive Welcome Board"** built with React components, TypeScript types, and proper Git workflow. |
 
-### 🌴 STAGE 2 — "React Lagoon: Components, State, and Data"
+### 🌴 STAGE 2 — "React Lagoon: State, Styling, and Advanced Components"
 
 [Stage Overview](stages/2/topics.md) · [Task Brief](stages/2/tasks.md)
 
-**Goal:** To understand React fundamentals and build the trainee's first component-based application.
+**Goal:** Deep dive into React's core concepts: state management, styling, routing, and debugging tools.
 
 | Focus Area | Key Concepts | Milestone |
 | :--- | :--- | :--- |
-| **React Fundamentals** | **React basics** (what, why, and JSX) with **TypeScript**, **Components, props, and state** with type definitions. | Working **“Krusty Menu Board” React + TypeScript app using state + props + lists**. |
-| **Application Building** | Event handling in React with TypeScript, rendering **Lists, keys, and data** sourced from TheMealDB with typed responses, and establishing a simple project structure & styling. | |
+| **State & Data** | **useState hook**, **Virtual DOM** understanding, **array operations** (filter, map, reduce), **Zustand** state management, **Context API**, and **React DevTools** debugging. | **"Krusty Menu Board"** app with state management, filtering, and routing. |
+| **Styling & Layout** | **SCSS/SASS**, **Flexbox** layouts, element positioning, **Tailwind CSS**, responsive design, and component styling patterns. | |
+| **Routing & Architecture** | **React Router** v6, client-side routing, navigation patterns, **props deep dive**, and component composition. | |
 
-### ⚓ STAGE 3 — "Sail to the Surface: Hooks, Routing, and Deployment"
+### ⚓ STAGE 3 — "Sail to the Surface: Advanced Hooks, Patterns, and Deployment"
 
 [Stage Overview](stages/3/topics.md) · [Task Brief](stages/3/tasks.md)
 
-**Goal:** To combine all acquired skills into a full, functional mini-app and deploy it live!
+**Goal:** Master advanced React patterns, optimize performance, and deploy a production-ready application.
 
 | Focus Area | Key Concepts | Milestone (Capstone) |
 | :--- | :--- | :--- |
-| **Professional Workflow** | Advanced React Hooks (**`useState`, `useEffect`**) with TypeScript generics, **Component composition & lifting state** with type definitions, and **Routing basics** (React Router) with TypeScript across TheMealDB-powered pages. | **Build and deploy “Krusty Krab Dashboard,”** a mini management app with multiple components, state management, and full TypeScript coverage. |
-| **Finalization** | Local storage / API integration with TheMealDB using typed models, mastering **Git workflow** (branching, PRs, review etiquette), and **Deploying TypeScript React apps with Render or Vercel**. | On Demo Day, trainees present their live app and earn the **Golden Spatula of React 🥇**. |
+| **Advanced Patterns** | **useEffect** hook mastery, **custom hooks**, **advanced routing** (nested routes, protected routes), **performance optimization** (React.memo, useMemo, useCallback), **error boundaries**, and **testing** with Jest & React Testing Library. | **Build and deploy "Krusty Krab Dashboard,"** a production-ready management app with advanced patterns, performance optimizations, and full test coverage. |
+| **Production Ready** | **React Hook Form** for forms, **advanced Zustand** patterns, **API integration** with error handling, **code splitting**, and **deployment** to Vercel/Render with CI/CD. | On Demo Day, trainees present their live app and earn the **Golden Spatula of React 🥇**. |
 
 ***

@@ -1,4 +1,4 @@
-# Week 3 — Dashboard Data Flow Notes
+# Stage 3 — Dashboard Data Flow Notes
 
 ```
 ┌─────────────────────────────────────────────┐
@@ -44,5 +44,5 @@
 
 ---
 
-**Related Task:** [Week 3 Task Brief — Sail to the Surface](../../tasks.md)
+**Related Task:** [Stage 3 Task Brief](../../tasks.md)
 

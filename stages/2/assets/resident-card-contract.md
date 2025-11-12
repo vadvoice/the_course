@@ -1,4 +1,4 @@
-# Week 2 — `ResidentCard` Component Contract
+# Stage 2 — `ResidentCard` Component Contract
 
 Use this contract for the props/TypeScript interface while building the components lab or porting the card into the main app.
 
@@ -40,5 +40,5 @@ Pair the contract with a small JSON seed file for local data or fetch character 
 
 ---
 
-**Related Task:** [Week 2 Task Brief — React Lagoon](../../tasks.md)
+**Related Task:** [Stage 2 Task Brief](../../tasks.md)
 

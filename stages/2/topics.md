@@ -1,34 +1,48 @@
-### 🌴 WEEK 2: “React Lagoon: Components, Hooks, and Friendship”
+### 🌴 STAGE 2: "React Lagoon: State, Styling, and Advanced Components"
 
 #### I. Goal and Focus
-The central objective for Week 2 is for trainees to **understand React fundamentals and build their first component-based app**.
-
-The necessary reference material for this week is the freeCodeCamp React Handbook.
+Stage 2 builds upon Stage 1 fundamentals by diving deeper into React's core concepts and modern development practices. Trainees will learn state management, styling techniques, routing, and debugging tools while building more complex, interactive applications.
 
 #### II. Key Topics (Lecture/Instructional Material)
-The curriculum focuses entirely on introducing and utilizing the primary building blocks of React:
+The curriculum focuses on intermediate React concepts and professional development practices:
 
 | Topic Category | Specific Concepts Covered |
 | :--- | :--- |
-| **React Basics** | Understanding **what React is, why it is used**, and the syntax of **JSX** (JavaScript XML) with TypeScript. |
-| **TypeScript Fundamentals** | **TypeScript basics** for React: interfaces, types, type inference, and component prop typing. |
-| **Core Building Blocks** | Deep dive into **Components, props, and state** with TypeScript type definitions, which are foundational to React application architecture. |
-| **User Interaction** | Learning the React-specific way of handling **event handling** with proper TypeScript event types. |
-| **Data Rendering** | Working with **Lists, keys, and rendering data** dynamically using React principles, including remote data from TheMealDB with typed API responses. |
-| **Organization** | Introduction to **Simple project structure & styling** within a React + TypeScript environment. |
+| **State Management** | Deep dive into **`useState` hook**, state updates, state lifting, and managing component state with TypeScript. Understanding when and how to lift state up in the component tree. |
+| **Virtual DOM** | Understanding **how React's Virtual DOM works**, reconciliation process, keys and re-rendering optimization. Learning why React is fast and how to write efficient components. |
+| **React DevTools** | Installing and using **React Developer Tools** browser extension for debugging components, inspecting props/state, profiling performance, and understanding component hierarchy. |
+| **Props Deep Dive** | Advanced **props patterns**: prop drilling, default props, prop validation with TypeScript, children prop, render props pattern, and when to use composition over props. |
+| **Styling & Layout** | **SCSS/SASS** setup and usage, **Flexbox** for layout, **CSS Grid** basics, element positioning (relative, absolute, fixed, sticky), responsive design patterns, and CSS Modules with TypeScript. |
+| **Array Operations** | Working with arrays in React: **map, filter, reduce, find, some, every**, array state updates, immutable patterns, and TypeScript array typing. Building dynamic lists with proper keys. |
+| **React Router** | **Client-side routing** with React Router v6, route configuration, navigation (Link, NavLink, useNavigate), route parameters, query strings, and TypeScript route typing. |
+| **Context API** | Understanding **React Context** for global state, creating and consuming context, context providers, avoiding prop drilling, and TypeScript context patterns. |
+| **Zustand State Management** | Introduction to **Zustand** as a lightweight state management solution, creating stores, actions, selectors, TypeScript integration, and when to use Zustand vs Context. |
+| **UI Libraries & Tailwind** | Introduction to **Tailwind CSS** utility-first styling, component libraries (optional: shadcn/ui, Radix UI), design systems, and building reusable styled components. |
 
 #### III. Daily Challenges (Practice/Application)
-The daily challenges immediately apply the concepts of components, state, and data rendering to build interactive applications.
+Trainees build progressively complex applications applying all Stage 2 concepts:
 
 | Days | Practice Project | Skill Focus |
 | :--- | :--- | :--- |
-| **Day 6–7** | **“Bikini Bottom Residents”** | Focusing on rendering React components and utilizing **props** to display dynamic content, such as **SpongeBob, Patrick, and Squidward profiles**. |
-| **Day 8–9** | **“Krusty Menu Board”** | This project utilizes **state and lists** to display menu items fetched from TheMealDB, allow users to **toggle favorites**, and implement logic to **count total Krabby Patties**. |
-| **Day 10** | **“Chum Bucket Feedback App”** | Building functionality to **add and remove customer feedback cards**, requiring practical use of component state and list manipulation. |
+| **Day 6** | **"Stateful SpongeBob Counter"** | Practice `useState` with multiple state variables, state updates, and TypeScript state typing. Build interactive counters and toggles. |
+| **Day 7** | **"Krusty Menu Board with Filters"** | Implement array operations (filter, map) to create a searchable, filterable menu board. Practice state management for filters and search queries. Use React DevTools to debug state changes. |
+| **Day 8** | **"Styled Bikini Bottom Layout"** | Build responsive layouts using SCSS, Flexbox, and CSS Grid. Create styled components with proper positioning. Practice component composition with styled children. |
+| **Day 9** | **"Multi-Page Krusty Krab App"** | Implement React Router with multiple pages (Home, Menu, About). Practice navigation, route parameters, and shared layouts. Use Context API for theme or user preferences. |
+| **Day 10** | **"Favorites Manager with Zustand"** | Build a favorites system using Zustand for global state. Practice creating stores, actions, and selectors. Compare Zustand with Context API patterns. |
 
-#### IV. Week 2 Milestone
-The successful milestone for Week 2 is the creation of a **working “Krusty Menu Board” React app utilizing state + props + lists**.
+#### IV. Stage 2 Milestone
+The successful completion of Stage 2 is marked by:
+- ✅ **"Krusty Menu Board"** app with:
+  - State management using `useState` and Zustand
+  - Filtering and searching using array operations
+  - Multi-page navigation with React Router
+  - Styled with SCSS and Tailwind CSS
+  - Proper TypeScript typing throughout
+  - Debugged using React DevTools
+- ✅ Understanding of Virtual DOM and React's rendering process
+- ✅ Ability to choose between Context API and Zustand for state management
+- ✅ Professional styling and layout skills
 
 ---
 
-**Resources:** [Week 2 Task Brief](tasks.md) · [Program Overview](../../README.md)
+**Resources:** [Stage 2 Task Brief](tasks.md) · [Stage 1: React Basics](../1/topics.md) · [Stage 3: Advanced Patterns](../3/topics.md) · [Program Overview](../../README.md)

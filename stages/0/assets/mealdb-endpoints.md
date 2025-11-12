@@ -1,4 +1,4 @@
-# Week 1 — TheMealDB Endpoint Cheat Sheet
+# Stage 0 — TheMealDB Endpoint Cheat Sheet
 
 Use these endpoints while building the “Krusty Pantry Explorer.” They all work with the public test key `1`; swap in your own key if you upgrade your plan. Full docs live at [TheMealDB API](https://www.themealdb.com/api.php).
 
@@ -32,5 +32,5 @@ Use these endpoints while building the “Krusty Pantry Explorer.” They all wo
 
 ---
 
-**Related Task:** [Week 1 Task Brief — Welcome to Bikini Bottom](../../tasks.md)
+**Related Task:** [Stage 0 Task Brief](../../tasks.md)
 

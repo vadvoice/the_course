@@ -1,6 +1,6 @@
-# Week 3 — Deploy Checklist Template
+# Stage 3 — Deploy Checklist Template
 
-Copy this template into your `week-3/deploy-checklist.md` and update each section as you move toward launch.
+Copy this template into your project root as `deploy-checklist.md` and update each section as you move toward launch.
 
 ## 1. Preflight
 - [ ] `npm run lint` (or `pnpm`/`yarn`) passes.
@@ -15,10 +15,11 @@ Copy this template into your `week-3/deploy-checklist.md` and update each sectio
 | `VITE_ANALYTICS_KEY` | Render Secret `analytics_key` | Optional instrumentation. |
 
 ## 3. Deployment Steps
-1. Push `main` branch to remote (`git push origin main`).
-2. Trigger Render/Vercel build (link URIs).
-3. Monitor build logs for warnings/errors.
-4. Run post-deploy smoke tests:
+1. Merge `release/*` branch to `main` (following Git Flow workflow).
+2. Push `main` branch to remote (`git push origin main`).
+3. Trigger Render/Vercel build (link URIs).
+4. Monitor build logs for warnings/errors.
+5. Run post-deploy smoke tests:
    - [ ] Load Home page, confirm announcements render.
    - [ ] Create + complete a task; verify persistence after refresh.
    - [ ] Toggle menu favorite; verify state sync and counts update.
@@ -35,5 +36,5 @@ Copy this template into your `week-3/deploy-checklist.md` and update each sectio
 
 ---
 
-**Related Task:** [Week 3 Task Brief — Sail to the Surface](../../tasks.md)
+**Related Task:** [Stage 3 Task Brief](../../tasks.md)
 
