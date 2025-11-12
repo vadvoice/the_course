@@ -40,5 +40,5 @@ Pair the contract with a small JSON seed file for local data or fetch character 
 
 ---
 
-**Related Task:** [Week 2 Task Brief — React Lagoon](../../materials/week2-tasks.md)
+**Related Task:** [Week 2 Task Brief — React Lagoon](../../tasks.md)
 

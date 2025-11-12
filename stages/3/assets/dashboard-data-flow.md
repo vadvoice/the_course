@@ -44,5 +44,5 @@
 
 ---
 
-**Related Task:** [Week 3 Task Brief — Sail to the Surface](../../materials/week3-tasks.md)
+**Related Task:** [Week 3 Task Brief — Sail to the Surface](../../tasks.md)
 

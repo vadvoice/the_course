@@ -28,4 +28,4 @@ The successful completion of Week 1 is marked by the milestone of having a **fun
 
 ---
 
-**Resources:** [Week 1 Task Brief](../materials/week1-tasks.md) · [Program Overview](../README.md)
+**Resources:** [Week 1 Task Brief](tasks.md) · [Program Overview](../../README.md)

@@ -19,10 +19,10 @@ By the end of this training, every SpongeBob-in-training will achieve the follow
 **The continuous Learning Loop:** Learn → Code → Build → Show → Reflect.
 
 ## 📦 Assets & Templates
-- **Git Workflow**: [`gitflow-workflow.md`](assets/gitflow-workflow.md) - Complete guide for feature branches, PRs, and code review process
-- Week 1: [`mealdb-endpoints.md`](assets/week1/mealdb-endpoints.md), [`favorites-schema.json`](assets/week1/favorites-schema.json)
-- Week 2: [`menu-board-wireframe.md`](assets/week2/menu-board-wireframe.md), [`resident-card-contract.md`](assets/week2/resident-card-contract.md)
-- Week 3: [`deploy-checklist-template.md`](assets/week3/deploy-checklist-template.md), [`dashboard-data-flow.md`](assets/week3/dashboard-data-flow.md)
+- **Git Workflow**: [`gitflow-workflow.md`](guides/gitflow-workflow.md) - Complete guide for feature branches, PRs, and code review process
+- Week 1: [`mealdb-endpoints.md`](stages/1/assets/mealdb-endpoints.md), [`favorites-schema.json`](stages/1/assets/favorites-schema.json)
+- Week 2: [`menu-board-wireframe.md`](stages/2/assets/menu-board-wireframe.md), [`resident-card-contract.md`](stages/2/assets/resident-card-contract.md)
+- Week 3: [`deploy-checklist-template.md`](stages/3/assets/deploy-checklist-template.md), [`dashboard-data-flow.md`](stages/3/assets/dashboard-data-flow.md)
 
 ---
 
@@ -30,9 +30,9 @@ By the end of this training, every SpongeBob-in-training will achieve the follow
 
 The curriculum is divided into three comprehensive stages, moving from foundational JavaScript to advanced, deployable React applications.
 
-### 🪸 WEEK 1 — “Welcome to Bikini Bottom: JavaScript Bootcamp”
+### 🪸 WEEK 1 — "Welcome to Bikini Bottom: JavaScript Bootcamp"
 
-[Stage Overview](stages/1.md) · [Task Brief](materials/week1-tasks.md)
+[Stage Overview](stages/1/topics.md) · [Task Brief](stages/1/tasks.md)
 
 **Goal:** To build a strong base in modern JavaScript and become comfortable working with the Document Object Model (DOM).
 
@@ -41,9 +41,9 @@ The curriculum is divided into three comprehensive stages, moving from foundatio
 | **Vanilla JS Mastery** | HTML & CSS refresher (Sandy’s bubble dome aesthetics 🧠), JS basics, and **ES6+ features** (arrow functions, destructuring, promises). | Functional **“Krusty Krab Orders” app built with vanilla JS**. |
 | **Interactivity & Data** | **DOM manipulation & event handling**. Using the **Fetch API + async/await** with TheMealDB to build the “Krusty Ingredient Explorer.” | |
 
-### 🌴 WEEK 2 — “React Lagoon: Components, Hooks, and Friendship”
+### 🌴 WEEK 2 — "React Lagoon: Components, Hooks, and Friendship"
 
-[Stage Overview](stages/2.md) · [Task Brief](materials/week2-tasks.md)
+[Stage Overview](stages/2/topics.md) · [Task Brief](stages/2/tasks.md)
 
 **Goal:** To understand React fundamentals and build the trainee's first component-based application.
 
@@ -52,9 +52,9 @@ The curriculum is divided into three comprehensive stages, moving from foundatio
 | **React Fundamentals** | **React basics** (what, why, and JSX) with **TypeScript**, **Components, props, and state** with type definitions. | Working **“Krusty Menu Board” React + TypeScript app using state + props + lists**. |
 | **Application Building** | Event handling in React with TypeScript, rendering **Lists, keys, and data** sourced from TheMealDB with typed responses, and establishing a simple project structure & styling. | |
 
-### ⚓ WEEK 3 — “Sail to the Surface: Hooks, Routing, and Deployment”
+### ⚓ WEEK 3 — "Sail to the Surface: Hooks, Routing, and Deployment"
 
-[Stage Overview](stages/3.md) · [Task Brief](materials/week3-tasks.md)
+[Stage Overview](stages/3/topics.md) · [Task Brief](stages/3/tasks.md)
 
 **Goal:** To combine all acquired skills into a full, functional mini-app and deploy it live!
 

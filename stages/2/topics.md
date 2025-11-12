@@ -31,4 +31,4 @@ The successful milestone for Week 2 is the creation of a **working “Krusty Men
 
 ---
 
-**Resources:** [Week 2 Task Brief](../materials/week2-tasks.md) · [Program Overview](../README.md)
+**Resources:** [Week 2 Task Brief](tasks.md) · [Program Overview](../../README.md)

@@ -38,5 +38,5 @@ Keep the layout mobile-first; collapse filters into accordions below 768px.
 
 ---
 
-**Related Task:** [Week 2 Task Brief — React Lagoon](../../materials/week2-tasks.md)
+**Related Task:** [Week 2 Task Brief — React Lagoon](../../tasks.md)
 

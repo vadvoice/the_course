@@ -16,7 +16,7 @@ Ship the “Krusty Menu Board” React app:
 
 ## Deliverables
 - Repo structure: `week-2/app/` for the Menu Board, `week-2/components-lab/` for the drill.
-- **Git Flow workflow**: All code submitted via feature branches with pull/merge requests to `develop` branch (see [Git Flow guide](../assets/gitflow-workflow.md)).
+- **Git Flow workflow**: All code submitted via feature branches with pull/merge requests to `develop` branch (see [Git Flow guide](../../guides/gitflow-workflow.md)).
 - Project README highlighting data fetching patterns, state management decisions, and how favorites persist.
 - Optional Loom (≤2 min) walking through the filtering and favorites experience.
 
@@ -26,9 +26,9 @@ Ship the “Krusty Menu Board” React app:
 - TypeScript Handbook: `https://www.typescriptlang.org/docs/handbook/intro.html` (focus on types, interfaces, and React integration).
 - React TypeScript Cheatsheet: `https://react-typescript-cheatsheet.netlify.app/` (essential reference for React + TypeScript patterns).
 - TheMealDB API docs: `https://www.themealdb.com/api.php`.
-- Internal assets: [`gitflow-workflow.md`](../assets/gitflow-workflow.md), [`menu-board-wireframe.md`](../assets/week2/menu-board-wireframe.md), [`resident-card-contract.md`](../assets/week2/resident-card-contract.md).
+- Internal assets: [`gitflow-workflow.md`](../../guides/gitflow-workflow.md), [`menu-board-wireframe.md`](assets/menu-board-wireframe.md), [`resident-card-contract.md`](assets/resident-card-contract.md).
 
 ---
 
-**Navigation:** [Week 2 Overview](../stages/2.md) · [Program Overview](../README.md)
+**Navigation:** [Week 2 Overview](topics.md) · [Program Overview](../../README.md)
 

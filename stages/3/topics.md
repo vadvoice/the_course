@@ -38,4 +38,4 @@ The program concludes with a **Demo Day**, where **each trainee presents their l
 
 ---
 
-**Resources:** [Week 3 Task Brief](../materials/week3-tasks.md) · [Program Overview](../README.md)
+**Resources:** [Week 3 Task Brief](tasks.md) · [Program Overview](../../README.md)

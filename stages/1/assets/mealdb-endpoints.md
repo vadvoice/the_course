@@ -32,5 +32,5 @@ Use these endpoints while building the “Krusty Pantry Explorer.” They all wo
 
 ---
 
-**Related Task:** [Week 1 Task Brief — Welcome to Bikini Bottom](../../materials/week1-tasks.md)
+**Related Task:** [Week 1 Task Brief — Welcome to Bikini Bottom](../../tasks.md)
 
