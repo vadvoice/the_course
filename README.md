@@ -64,6 +64,8 @@ Throughout the bootcamp, you'll work with:
   - [`gitflow-workflow.md`](guides/gitflow-workflow.md) - Complete guide for feature branches, PRs, and code review process
 - **Stage 0** (Optional): [`mealdb-endpoints.md`](stages/0/assets/mealdb-endpoints.md), [`favorites-schema.json`](stages/0/assets/favorites-schema.json) - Vanilla JS resources
 - **Stage 1**: [`react-setup-guide.md`](stages/1/assets/react-setup-guide.md), [`component-examples.md`](stages/1/assets/component-examples.md) - React setup and component examples
+
+    - DEMO: https://v5sydn.csb.app/
 - **Stage 2**: [`menu-board-wireframe.md`](stages/2/assets/menu-board-wireframe.md), [`resident-card-contract.md`](stages/2/assets/resident-card-contract.md)
 - **Stage 3**: [`deploy-checklist-template.md`](stages/3/assets/deploy-checklist-template.md), [`dashboard-data-flow.md`](stages/3/assets/dashboard-data-flow.md)
 
