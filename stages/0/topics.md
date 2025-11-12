@@ -1,7 +1,7 @@
-### 🪸 WEEK 1: "Welcome to Bikini Bottom: JavaScript Bootcamp"
+### 🪸 STAGE 0: "Vanilla JavaScript Foundation" (Optional Pre-Stage)
 
 #### I. Goal and Focus
-The primary goal for trainees during Week 1 is to **build a strong base in modern JavaScript** and become comfortable working with the Document Object Model (DOM). This sets the stage for eventually building interactive web apps using React.
+This is an **optional pre-stage** for trainees who need to build a strong base in modern JavaScript before diving into React. The primary goal is to become comfortable working with the Document Object Model (DOM) and modern JavaScript features. This stage is recommended for complete beginners but can be skipped if you already have JavaScript experience.
 
 #### II. Key Topics 
 The curriculum dives into several key areas of web development and JavaScript features:
@@ -23,9 +23,9 @@ Trainees complete daily challenges that apply the lecture concepts, leading up t
 | **Day 3–4** | **“Krusty Ingredient Explorer”** | Consuming TheMealDB API to display ingredient data for Krabby Patty experiments. |
 | **Day 5** | **“Krusty Krab Orders”** | Building an interactive order list app that allows users to add, remove, and filter items. |
 
-#### IV. Week 1 Milestone
-The successful completion of Week 1 is marked by the milestone of having a **functional “Krusty Krab Orders” app built entirely with vanilla JS**.
+#### IV. Stage 0 Milestone
+The successful completion of Stage 0 is marked by the milestone of having a **functional "Krusty Krab Orders" app built entirely with vanilla JS**. After completing this stage, you'll be ready to move on to Stage 1 where we start building with React.
 
 ---
 
-**Resources:** [Week 1 Task Brief](../materials/week1-tasks.md) · [Program Overview](../README.md)
+**Resources:** [Stage 0 Task Brief](tasks.md) · [Stage 1: React Basics](../1/topics.md) · [Program Overview](../../README.md)
