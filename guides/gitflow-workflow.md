@@ -251,5 +251,5 @@ git push origin feature/your-feature
 
 ---
 
-**Navigation:** [Pre-Requirements](../pre-requirements.md) · [Program Overview](../README.md)
+**Navigation:** [Prerequisites & Setup](../README.md#-prerequisites--setup) · [Program Overview](../README.md)
 

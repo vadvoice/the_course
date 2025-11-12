@@ -18,8 +18,50 @@ By the end of this training, every SpongeBob-in-training will achieve the follow
 
 **The continuous Learning Loop:** Learn → Code → Build → Show → Reflect.
 
+## ✅ Prerequisites & Setup
+
+Before starting the bootcamp, ensure you have the following tools and technologies set up:
+
+### Tooling
+
+- **VS Code** with recommended extensions:
+  - Biome (replaces ESLint + Prettier)
+  - Live Server (for vanilla JS development and experiments)
+  - Auto Rename Tag (optional but helpful)
+  - TypeScript and JavaScript Language Features (built-in)
+- **Node.js (latest LTS) via NVM**  
+  ```bash
+  nvm install --lts && nvm use --lts
+  ```
+- **Git** (CLI) with GitHub or GitLab access and SSH keys configured
+- **Git Flow workflow**: All work must be submitted via feature branches and pull/merge requests. See the [Git Flow Workflow Guide](guides/gitflow-workflow.md) for detailed instructions.
+- **Commitlint**: Commit messages must follow [Conventional Commits](https://www.conventionalcommits.org/) format (enforced via [commitlint](https://github.com/conventional-changelog/commitlint))
+- **Package manager**: `npm` (bundled with Node.js) or `pnpm` if preferred
+- **Browser DevTools-ready browser** (Chrome, Edge, or Firefox)
+- **Optional helpers**: Postman or Bruno for API exploration
+
+### Technologies & Libraries
+
+Throughout the bootcamp, you'll work with:
+
+- **TypeScript** - All React projects use TypeScript for type safety and better developer experience
+- **React with TypeScript** (function components, hooks, routing, type definitions)
+- **State Management** with **Zustand**
+- **Form Handling** via **React Hook Form**
+- **HTTP/REST Client**: **Axios**
+- **Git Workflow**: **Git Flow** (feature branches, develop/main branches, PR reviews) + **lefthook** (Git hook manager) + **commitlint** (commit message linting)
+- **Code Quality & Formatting**: **Biome.js** (linting + formatting)
+- **Testing**: Jest + React Testing Library (intro level)
+- **Styling Options**: Tailwind CSS or CSS Modules (based on cohort preference)
+- **Deployment Targets**: Render and Vercel
+- **API Integrations**: TheMealDB (primary), plus mock APIs for exercises
+
+> **📚 Guides & Documentation:** For detailed guides on workflows and best practices, check the [`guides/`](guides/) folder, including the comprehensive [Git Flow Workflow Guide](guides/gitflow-workflow.md).
+
 ## 📦 Assets & Templates
-- **Git Workflow**: [`gitflow-workflow.md`](guides/gitflow-workflow.md) - Complete guide for feature branches, PRs, and code review process
+
+- **Guides**: See the [`guides/`](guides/) folder for detailed documentation:
+  - [`gitflow-workflow.md`](guides/gitflow-workflow.md) - Complete guide for feature branches, PRs, and code review process
 - **Stage 0** (Optional): [`mealdb-endpoints.md`](stages/0/assets/mealdb-endpoints.md), [`favorites-schema.json`](stages/0/assets/favorites-schema.json) - Vanilla JS resources
 - **Stage 1**: [`react-setup-guide.md`](stages/1/assets/react-setup-guide.md), [`component-examples.md`](stages/1/assets/component-examples.md) - React setup and component examples
 - **Stage 2**: [`menu-board-wireframe.md`](stages/2/assets/menu-board-wireframe.md), [`resident-card-contract.md`](stages/2/assets/resident-card-contract.md)
@@ -29,7 +71,16 @@ By the end of this training, every SpongeBob-in-training will achieve the follow
 
 ## 🌊 Program Stages
 
-The curriculum is divided into **three main stages** (plus an optional pre-stage), moving from React fundamentals to advanced, deployable applications. All work is tracked in a single GitHub repository.
+The curriculum is structured in **4 stages** (1 optional + 3 core), designed to take you from JavaScript basics to deploying production-ready React applications. All work is tracked in a single GitHub repository using professional Git workflows.
+
+| Stage | Focus | Duration | Key Deliverable |
+|:---|:---|:---|:---|
+| **🪸 Stage 0** (Optional) | Vanilla JavaScript Foundation | 5 days | "Krusty Krab Orders" - Vanilla JS app |
+| **🌊 Stage 1** | React Basics & Environment Setup | 5 days | "Interactive Welcome Board" - First React app |
+| **🌴 Stage 2** | State, Styling & Advanced Components | 5 days | "Krusty Menu Board" - Full-featured React app |
+| **⚓ Stage 3** | Advanced Patterns & Deployment | 5 days | "Krusty Krab Dashboard" - Production-ready app |
+
+> **💡 Pro Tip:** If you're already comfortable with JavaScript, you can skip Stage 0 and jump straight into React with Stage 1!
 
 ### 🪸 STAGE 0 — "Vanilla JavaScript Foundation" (Optional Pre-Stage)
 
