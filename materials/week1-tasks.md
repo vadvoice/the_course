@@ -16,13 +16,14 @@ Build the “Krusty Pantry Explorer” web page:
 
 ## Deliverables
 - Repo structure: `week-1/core/` for the Pantry Explorer, `week-1/lab/` for the animation drill.
+- **Git Flow workflow**: All code submitted via feature branches with pull/merge requests to `develop` branch (see [Git Flow guide](../assets/gitflow-workflow.md)).
 - README snippet describing API endpoints used, persistence approach, and accessibility checks.
 - Optional: 60-second walkthrough video or GIF demonstrating search + favorite workflow.
 
 ## Reference Materials
 - MDN guides for DOM APIs, Fetch, Promises, and async/await.
 - TheMealDB API docs: `https://www.themealdb.com/api.php`.
-- Internal assets: [`mealdb-endpoints.md`](../assets/week1/mealdb-endpoints.md), [`favorites-schema.json`](../assets/week1/favorites-schema.json).
+- Internal assets: [`gitflow-workflow.md`](../assets/gitflow-workflow.md), [`mealdb-endpoints.md`](../assets/week1/mealdb-endpoints.md), [`favorites-schema.json`](../assets/week1/favorites-schema.json).
 - Optional: Scrimba or egghead.io clips on modern JavaScript patterns.
 
 ---

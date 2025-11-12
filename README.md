@@ -19,6 +19,7 @@ By the end of this training, every SpongeBob-in-training will achieve the follow
 **The continuous Learning Loop:** Learn → Code → Build → Show → Reflect.
 
 ## 📦 Assets & Templates
+- **Git Workflow**: [`gitflow-workflow.md`](assets/gitflow-workflow.md) - Complete guide for feature branches, PRs, and code review process
 - Week 1: [`mealdb-endpoints.md`](assets/week1/mealdb-endpoints.md), [`favorites-schema.json`](assets/week1/favorites-schema.json)
 - Week 2: [`menu-board-wireframe.md`](assets/week2/menu-board-wireframe.md), [`resident-card-contract.md`](assets/week2/resident-card-contract.md)
 - Week 3: [`deploy-checklist-template.md`](assets/week3/deploy-checklist-template.md), [`dashboard-data-flow.md`](assets/week3/dashboard-data-flow.md)
@@ -48,8 +49,8 @@ The curriculum is divided into three comprehensive stages, moving from foundatio
 
 | Focus Area | Key Concepts | Milestone |
 | :--- | :--- | :--- |
-| **React Fundamentals** | **React basics** (what, why, and JSX), **Components, props, and state**. | Working **“Krusty Menu Board” React app using state + props + lists**. |
-| **Application Building** | Event handling in React, rendering **Lists, keys, and data** sourced from TheMealDB, and establishing a simple project structure & styling. | |
+| **React Fundamentals** | **React basics** (what, why, and JSX) with **TypeScript**, **Components, props, and state** with type definitions. | Working **“Krusty Menu Board” React + TypeScript app using state + props + lists**. |
+| **Application Building** | Event handling in React with TypeScript, rendering **Lists, keys, and data** sourced from TheMealDB with typed responses, and establishing a simple project structure & styling. | |
 
 ### ⚓ WEEK 3 — “Sail to the Surface: Hooks, Routing, and Deployment”
 
@@ -59,7 +60,7 @@ The curriculum is divided into three comprehensive stages, moving from foundatio
 
 | Focus Area | Key Concepts | Milestone (Capstone) |
 | :--- | :--- | :--- |
-| **Professional Workflow** | Advanced React Hooks (**`useState`, `useEffect`**), **Component composition & lifting state**, and **Routing basics** (React Router) across TheMealDB-powered pages. | **Build and deploy “Krusty Krab Dashboard,”** a mini management app with multiple components and state management. |
-| **Finalization** | Local storage / API integration with TheMealDB, mastering **Git workflow** (branching, PRs, review etiquette), and **Deploying with Render or Vercel**. | On Demo Day, trainees present their live app and earn the **Golden Spatula of React 🥇**. |
+| **Professional Workflow** | Advanced React Hooks (**`useState`, `useEffect`**) with TypeScript generics, **Component composition & lifting state** with type definitions, and **Routing basics** (React Router) with TypeScript across TheMealDB-powered pages. | **Build and deploy “Krusty Krab Dashboard,”** a mini management app with multiple components, state management, and full TypeScript coverage. |
+| **Finalization** | Local storage / API integration with TheMealDB using typed models, mastering **Git workflow** (branching, PRs, review etiquette), and **Deploying TypeScript React apps with Render or Vercel**. | On Demo Day, trainees present their live app and earn the **Golden Spatula of React 🥇**. |
 
 ***
