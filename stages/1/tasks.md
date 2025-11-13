@@ -99,6 +99,52 @@ src/
 - Implement a simple prop validation utility
 - Add Storybook for component documentation
 
+## 🚀 Advanced Challenges (For Experienced Students)
+
+If you find the core assignment too easy, here are more challenging tasks that will push your React and TypeScript skills further:
+
+### Advanced Component Patterns
+- **Compound Components**: Build a `ResidentCard` using the compound component pattern (e.g., `ResidentCard.Header`, `ResidentCard.Body`, `ResidentCard.Footer`)
+- **Render Props Pattern**: Create a reusable `DataFetcher` component that uses render props to handle data fetching logic
+- **Higher-Order Components (HOCs)**: Build an HOC that adds loading states or error boundaries to any component
+- **Polymorphic Components**: Create a `Box` component that can render as different HTML elements (`div`, `section`, `article`) based on props
+
+### Advanced TypeScript
+- **Generic Components**: Build a generic `List<T>` component that works with any data type
+- **Discriminated Unions**: Use TypeScript discriminated unions for complex prop types (e.g., different card variants)
+- **Utility Types**: Leverage TypeScript utility types (`Partial`, `Pick`, `Omit`, `Record`) for component props
+- **Type Guards**: Implement runtime type checking with TypeScript type guards
+
+### Development Tooling
+- **Storybook Setup**: Set up Storybook and document all components with stories, controls, and documentation
+- **Component Testing**: Write unit tests for components using Vitest (Vite's test runner) and React Testing Library
+- **CI/CD Basics**: Set up GitHub Actions to run tests and linting on every PR
+- **Pre-commit Hooks**: Configure Husky or lefthook with pre-commit hooks for linting and type checking
+
+### Advanced Project Structure
+- **Monorepo Setup**: Organize the project as a monorepo with separate packages for components and utilities
+- **Path Aliases**: Configure TypeScript path aliases (`@/components`, `@/utils`) for cleaner imports
+- **Barrel Exports**: Create index files for clean component exports
+- **Design System Foundation**: Build a basic design system with tokens (colors, spacing, typography)
+
+### Performance & Best Practices
+- **Code Splitting**: Implement route-based code splitting even at this early stage
+- **Lazy Loading**: Use `React.lazy` and `Suspense` for component lazy loading
+- **Memoization**: Practice with `React.memo` to prevent unnecessary re-renders
+- **Bundle Analysis**: Use tools like `vite-bundle-visualizer` to analyze bundle size
+
+### Advanced Git Workflow
+- **Conventional Commits Automation**: Set up automated changelog generation from commit messages
+- **Branch Protection Rules**: Configure branch protection rules on GitHub
+- **PR Templates**: Create pull request templates with checklists and guidelines
+- **Semantic Versioning**: Implement semantic versioning for releases
+
+**Deliverable for Advanced Challenges:**
+- Complete at least 3 of the above challenges
+- Document your approach and decisions in the README
+- Create a separate PR for each advanced feature
+- Include tests or Storybook stories for your advanced components
+
 ## Deliverables
 - Repo structure: All code in the main repository, organized by feature branches
 - **Git Flow workflow**: All code submitted via feature branches with pull/merge requests to `develop` branch (see [Git Flow guide](../../guides/gitflow-workflow.md))
